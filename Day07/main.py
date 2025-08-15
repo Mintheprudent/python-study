@@ -1,18 +1,17 @@
-# Day 7: Looping with Lists (for 문 & 리스트 연습)
+# Day 7 - Loops and Iterations
+# Today we learned about for loops, while loops, and iterating over different data types.
 
-# Example 1: Creating a list
-fruits = ["apple", "banana", "orange"]
-
-# Example 2: Looping through the list
+# For loop example
+fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
-    print(f"I like {fruit}!")
+    print(f"I like {fruit}")
 
-# Example 3: Using range with for loop
-for i in range(1, 4):
-    print(f"This is loop number {i}")
+# While loop example
+count = 0
+while count < 3:
+    print(f"Count is {count}")
+    count += 1
 
-# Example 4: List operations
-numbers = [1, 2, 3]
-numbers.append(4)     # [1, 2, 3, 4]
-numbers.remove(2)     # [1, 3, 4]
-print(numbers)
+# Using range in for loop
+for i in range(1, 6):
+    print(f"Number: {i}")
